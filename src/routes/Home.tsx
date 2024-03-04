@@ -191,7 +191,6 @@ export default Home;
 const Wrapper = styled.div`
   background: "#000";
   width: 100vw;
-  border: 2px solid yellowgreen;
   * {
     box-sizing: border-box;
   }
@@ -233,9 +232,7 @@ const Overview = styled.p`
 `;
 
 const Slider = styled.div`
-  border: 1px solid gold;
   position: relative;
-
   padding: 0 10px;
   width: 100%;
   top: -100px;
@@ -243,7 +240,6 @@ const Slider = styled.div`
 
 const BoxWrap = styled.div`
   width: 100%;
-  border: 1px solid pink;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
